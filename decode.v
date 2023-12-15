@@ -14,7 +14,7 @@ module DECODER (
     output reg [31:0] alu_imm2,
         
     // REG-FILE
-    output            RF_chip_enable ;
+    output            RF_chip_enable,
     output            RF_write_enable    // 1: write / 0: Read 
     input [31:0]      RF_reg1_data,
     input [31:0]      RF_reg2_data,   
